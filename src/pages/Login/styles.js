@@ -22,11 +22,7 @@ export const Wrapper = styled.div`
 `;
 
 export const FormWrapper = styled.div`
-<<<<<<< HEAD
   width: 90%;
-=======
-  width: 400px;
->>>>>>> origin
   display: inherit;
   flex-direction: column;
   align-items: inherit;
@@ -58,20 +54,13 @@ export const FormWrapper = styled.div`
   }
 `;
 
-<<<<<<< HEAD
 export const Form = styled.form`
   width: 100%;
   color: #2b2b2b;
   display: flex;
   flex-direction: column;
   align-items: center;
-=======
-export const Form = styled.div`
-  color: #2b2b2b;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
->>>>>>> origin
+
   gap: 25px;
 
   .label-form {
@@ -81,10 +70,7 @@ export const Form = styled.div`
     font-size: 0.9rem;
 
     .input-form {
-<<<<<<< HEAD
       width: 90%;
-=======
->>>>>>> origin
       color: #2B2B2B;
       font-size: 0.9rem;
       height: 50px;
@@ -99,42 +85,19 @@ export const Form = styled.div`
     display: flex;
     text-align: left;
     font-size: 0.9rem;
-<<<<<<< HEAD
     cursor: pointer;
-=======
->>>>>>> origin
-  }
 
-  .input-checkbox {
-    height: 1rem;
-    width: 1rem;
-    background-color: #eee;
-    border: 1px solid white;
-    outline: none;
-    border-radius: 2px;
-    margin-right: 8px;
-<<<<<<< HEAD
-    cursor: pointer;
+    .input-checkbox {
+      height: 1rem;
+      width: 1rem;
+      background-color: #eee;
+      border: 1px solid white;
+      outline: none;
+      border-radius: 2px;
+      margin-right: 8px;
+      cursor: pointer;
+    }
   }
-=======
-  }
-
-  button {
-    font-size: 1rem;
-    font-weight: 700;
-    color: #FFF;
-    background-color: #0C9439;
-    width: 385px;
-    height: 56px;
-    border: 0;
-    border-radius: 8px;
-    transition: 0.3s;
-  }
-  button:hover {
-    background-color: #1E7A3D;
-  }
-`;
->>>>>>> origin
 
   button[type="submit"] {
     font-size: 1rem;
@@ -150,6 +113,7 @@ export const Form = styled.div`
   button[type="submit"]:hover {
     background-color: #1E7A3D;
   }
+
   span.error-password, span.error-email {
     position: absolute;
     margin-left: 50px;
