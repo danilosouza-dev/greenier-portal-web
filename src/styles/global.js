@@ -35,7 +35,7 @@ export const GlobalStyle = createGlobalStyle`
   p {
     font-weight: 300;
   }
-  button {
+  button, input {
     cursor: pointer;
   }
 `;
