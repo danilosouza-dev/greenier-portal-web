@@ -4,6 +4,7 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
 
 import { Container, Form, FormWrapper, Wrapper } from './styles';
+<<<<<<< HEAD
 import logoSantoVerde from '../../assets/logo-santo-verde.svg';
 
 
@@ -12,6 +13,10 @@ const schema = yup.object({
   password: yup.string().min(6, "* a senha deve ter pelo menos 6 dígitos").required("* a senha é obrigatória"),
 }).required();
 
+=======
+// import logo from '../../assets/logo-greenier.svg';
+import logoSantoVerde from '../../assets/logo-santo-verde.svg';
+>>>>>>> origin
 
 export function Login() {
   const { register, handleSubmit, formState:{ errors } } = useForm({
@@ -32,6 +37,7 @@ export function Login() {
               <h1>Login</h1>
               <p>Não possui uma conta? <a href="#">Cadastre-se</a> </p>
             </div>
+<<<<<<< HEAD
             <Form onSubmit={handleSubmit(onSubmit)}>
 
               <label className='label-form'>
@@ -60,11 +66,30 @@ export function Login() {
               </label>
 
               <label className='container-checkbox' htmlFor='checkbox-conect'>
+=======
+            <Form>
+
+              <label className='label-form'>
+                Email
+                <input className='input-form' type="text" placeholder="digite seu email" />
+              </label>
+
+              <label className='label-form'>
+                Senha
+                <input className='input-form' type="password" placeholder="digite sua senha" />
+              </label>
+
+              <label className='container-checkbox' for='checkbox-conect'>
+>>>>>>> origin
                 <input type="checkbox" className='input-checkbox' id='checkbox-conect' />
                 Manter conectado
               </label>
 
+<<<<<<< HEAD
               <button type="submit" >Entrar</button>
+=======
+              <button type='submit'>Entrar</button>
+>>>>>>> origin
 
             </Form>
           </FormWrapper>
