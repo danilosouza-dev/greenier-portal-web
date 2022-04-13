@@ -22,7 +22,7 @@ export const Wrapper = styled.div`
 `;
 
 export const FormWrapper = styled.div`
-  width: 400px;
+  width: 90%;
   display: inherit;
   flex-direction: column;
   align-items: inherit;
@@ -54,11 +54,12 @@ export const FormWrapper = styled.div`
   }
 `;
 
-export const Form = styled.div`
+export const Form = styled.form`
+  width: 100%;
   color: #2b2b2b;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   gap: 25px;
 
   .label-form {
@@ -68,10 +69,10 @@ export const Form = styled.div`
     font-size: 0.9rem;
 
     .input-form {
+      width: 90%;
       color: #2B2B2B;
       font-size: 0.9rem;
-      width: 385px;
-      height: 57px;
+      height: 50px;
       padding: 10px;
       border: 0;
       border-radius: 8px;
@@ -97,7 +98,7 @@ export const Form = styled.div`
     cursor: pointer;
   }
 
-  button {
+  button[type="submit"] {
     font-size: 1rem;
     font-weight: 700;
     color: #FFF;
@@ -108,8 +109,12 @@ export const Form = styled.div`
     border-radius: 8px;
     transition: 0.3s;
   }
-  button:hover {
+  button[type="submit"]:hover {
     background-color: #1E7A3D;
   }
+  span.error-password, span.error-email {
+    position: absolute;
+    margin-left: 50px;
+    color: red;
+  }
 `;
-
