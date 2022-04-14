@@ -2,17 +2,17 @@ import styled from 'styled-components';
 import bgGreenier from '../../assets/bg-greenier.jpeg';
 
 export const Container = styled.div`
-  width: 100vw;
-  height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
   display: flex;
-  align-items: start;
-  justify-content: right;
+  align-items: center;
+  justify-content: end;
   background: url(${bgGreenier}) no-repeat center center fixed;
   background-size: cover;
 `;
 
 export const Wrapper = styled.div`
-  width: 550px;
+  width: 546px;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -56,21 +56,29 @@ export const FormWrapper = styled.div`
 
 export const Form = styled.form`
   width: 100%;
-  color: #2b2b2b;
+  /* color: #2b2b2b;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 25px; */
 
-  gap: 25px;
+  .container-form { 
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 25px;
 
-  .label-form {
+    .field {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 7px;
     font-size: 0.9rem;
 
     .input-form {
-      width: 90%;
+      width: 100%;
       color: #2B2B2B;
       font-size: 0.9rem;
       height: 50px;
@@ -99,24 +107,25 @@ export const Form = styled.form`
     }
   }
 
-  button[type="submit"] {
-    font-size: 1rem;
-    font-weight: 700;
-    color: #FFF;
-    background-color: #0C9439;
-    width: 385px;
-    height: 56px;
-    border: 0;
-    border-radius: 8px;
-    transition: 0.3s;
-  }
-  button[type="submit"]:hover {
-    background-color: #1E7A3D;
-  }
+   button[type="submit"] {
+     font-size: 1rem;
+     font-weight: 700;
+     color: #FFF;
+     background-color: #0C9439;
+     width: 100%;
+     height: 56px;
+     border: 0;
+     border-radius: 8px;
+     transition: 0.3s;
+   }
+   button[type="submit"]:hover {
+     background-color: #1E7A3D;
+   }
 
-  span.error-password, span.error-email {
-    position: absolute;
-    margin-left: 50px;
-    color: red;
+   span.error-password, span.error-email {
+     position: absolute;
+     margin-left: 50px;
+     color: red;
+   }
   }
 `;

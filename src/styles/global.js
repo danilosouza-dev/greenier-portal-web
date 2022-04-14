@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   :root {
-    --background: #121212;
+    --background: #F3F5F7;
     --amarelo: #FCE10F;
     --backgroundcard: #282828;
     --text-title: #FFF;
@@ -35,7 +35,7 @@ export const GlobalStyle = createGlobalStyle`
   p {
     font-weight: 300;
   }
-  button, input {
+  button {
     cursor: pointer;
   }
 `;
