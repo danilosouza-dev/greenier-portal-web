@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   position: fixed;
+  height: 90vh;
 
   .active {
     border-right: 4px solid #fff;
@@ -10,8 +11,8 @@ export const Container = styled.div`
 
 export const SidebarContainer = styled.div` 
   background-color: #FFF;
+  height: 85vh;
   width: 3.5rem;
-  height: 80vh;
   margin-top: 1rem;
   border-radius: 0 30px 30px 0;
   padding: 1rem 0;
@@ -92,6 +93,8 @@ export const Item = styled.li`
   cursor: pointer;
   display: flex;
   align-items: center;
+  transition: all 0.3s ease 0s;
+
   /* padding-left: 1rem; */
 
   img {

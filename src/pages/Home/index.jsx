@@ -6,6 +6,7 @@ import iconWifiOn from '../../assets/icon-wifi-on.svg'
 import iconInfo from '../../assets/info-icon.svg'
 import iconPontos from '../../assets/pontos-icon.svg'
 import iconPlus from '../../assets/icon-plus.svg'
+import { HeaderGridDefault } from "../../components/HeaderGridDefault";
 
 
 export function Home() {
@@ -22,13 +23,13 @@ export function Home() {
                 <p>Status/Localização</p>
               </div>
 
-              <dir className="grid-1-menu">
+              <div className="grid-1-menu">
                 <button>
                   <img src={iconPlus} alt="" />
                   Ponto de Venda
                 </button>
                 <img src={iconFilter} alt="" />
-              </dir>
+              </div>
             </ContainerHeader>
 
             <ContainerGrid1Body>
@@ -346,9 +347,11 @@ export function Home() {
 
           <div className="cgT">
             <div className="grid2">
+              <HeaderGridDefault title="Ranking de vendas" />
             </div>
 
             <div className="grid3">
+              <HeaderGridDefault title="Dados analíticos" />
             </div>
           </div>
         </ Wrapper>

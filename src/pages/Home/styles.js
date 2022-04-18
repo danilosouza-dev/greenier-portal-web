@@ -10,12 +10,13 @@ export const Container = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  width: 85vw;
-  height: 85vh;
+  width: 90vw;
+  height: 95vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   grid-gap: 20px;
+  margin-left: 50px;
 
   .grid1 {
     padding-right: 5px;
@@ -76,8 +77,9 @@ export const ContainerHeader = styled.div`
 
      button {
       color: #0C9439;
+      letter-spacing: 0.5px;
       font-weight: normal;
-      padding: 10px 15px;
+      padding: 0 15px;
       display: flex;
       align-items: center;
       background-color: #FFF;
@@ -114,7 +116,7 @@ export const ContainerHeader = styled.div`
 
 
 export const ContainerGrid1Body = styled.div`
-    padding: 0 5px 35px 25px;
+    padding: 0 5px 0 25px;
     overflow-y: scroll;
     width: 100%;
     max-height: 70vh;
@@ -156,7 +158,7 @@ export const ContainerGrid1Body = styled.div`
       padding-right: 10px;
 
       & > img {
-        width: 25px;
+        width: 20px;
         filter: var(--grey-default-filter);
         transition: all 0.2s;
       }
