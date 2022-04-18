@@ -7,24 +7,19 @@ import {
   SlideBar,
   Item,
   Text,
-  Profile,
-  Details,
-  Name,
-  Logout,
+  Logout
 } from "./styles";
 import logoAvata from "../../assets/logo-avata.svg";
-import iconHome from "../../assets/home-solid.svg";
-import iconSocial from "../../assets/social.svg";
-import iconSceduled from "../../assets/sceduled.svg";
-import iconDraft from "../../assets/draft.svg";
-import iconStarred from "../../assets/starred.svg";
-import powerOffSolid from "../../assets/power-off-solid.svg";
+import iconHome from "../../assets/icon-home.svg";
+import iconProduct from "../../assets/icon-product.svg";
+import iconLocation from "../../assets/icon-location.svg";
+import iconLogout from '../../assets/icon-logout.svg'
 
 export function Sidebar() {
   const [click, setClick] = useState(false);
   const [profileClick, setProfileClick] = useState(false);
 
-  function handleClick () {
+  function handleClick() {
     setClick(!click)
   }
   function handleMouseLeave() {
@@ -38,7 +33,7 @@ export function Sidebar() {
     }
   }
 
-  const handleProfileClick = () => setProfileClick(!profileClick);
+  // const handleProfileClick = () => setProfileClick(!profileClick);
 
   return (
     <>
@@ -52,10 +47,10 @@ export function Sidebar() {
             <img src={logoAvata} alt="logo" />
           </Logo>
 
-          <SlideBar 
-            clicked={click} 
-            onMouseLeave={handleMouseLeave} 
-            onMouseEnter={handleMouseEnter} 
+          <SlideBar
+            clicked={click}
+            onMouseLeave={handleMouseLeave}
+            onMouseEnter={handleMouseEnter}
           >
             <Item>
               <img src={iconHome} alt="" />
@@ -63,27 +58,18 @@ export function Sidebar() {
             </Item>
 
             <Item>
-              <img src={iconSocial} alt="" />
-              <Text clicked={click}>Meus Cursos</Text>
+              <img src={iconProduct} alt="" />
+              <Text clicked={click}>Produto</Text>
             </Item>
 
             <Item>
-              <img src={iconSceduled} alt="" />
-              <Text clicked={click}>Calendario</Text>
+              <img src={iconLocation} alt="" />
+              <Text clicked={click}>Filial</Text>
             </Item>
 
-            <Item>
-              <img src={iconDraft} alt="" />
-              <Text clicked={click}>Projetos</Text>
-            </Item>
-
-            <Item>
-              <img src={iconStarred} alt="" />
-              <Text clicked={click}>Salvos</Text>
-            </Item>
           </SlideBar>
 
-          <Profile clicked={profileClick}>
+          {/* <Profile clicked={profileClick}>
             <img
               onClick={handleProfileClick}
               src="https://picsum.photos/200"
@@ -96,10 +82,14 @@ export function Sidebar() {
               </Name>
 
               <Logout>
-                <img src={powerOffSolid} alt="" />
+                <img src={} alt="" />
               </Logout>
             </Details>
-          </Profile>
+          </Profile> */}
+
+          <Logout>
+            <img src={iconLogout} alt="" />
+          </Logout>
         </SidebarContainer>
       </Container>
     </>

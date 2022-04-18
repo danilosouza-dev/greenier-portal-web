@@ -1,0 +1,16 @@
+<svg id="Componente_61" data-name="Componente 61" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Retângulo_17443" data-name="Retângulo 17443" fill="#aaa" stroke="#707070" stroke-width="1" opacity="0">
+    <rect width="40" height="40" stroke="none"/>
+    <rect x="0.5" y="0.5" width="39" height="39" fill="none"/>
+  </g>
+  <g id="pin" transform="translate(2 2.5)">
+    <g id="Grupo_40682" data-name="Grupo 40682">
+      <g id="Componente_63_1" data-name="Componente 63 – 1" transform="translate(12.408 9.408)">
+        <path id="Caminho_34645" data-name="Caminho 34645" d="M24.408,15.408a6,6,0,1,1-6-6,6,6,0,0,1,6,6Zm-3,0a3,3,0,1,1-3-3,3,3,0,0,1,3,3Z" transform="translate(-12.408 -9.408)" fill="#707070" fill-rule="evenodd"/>
+      </g>
+      <g id="Componente_62_1" data-name="Componente 62 – 1" transform="translate(4.5 1.5)">
+        <path id="Caminho_34646" data-name="Caminho 34646" d="M8.691,24.777a13.5,13.5,0,1,1,19.086-.468l-9.309,9.777L8.691,24.777ZM25.6,22.24l-7.24,7.6-7.6-7.24a10.5,10.5,0,1,1,14.846-.364Z" transform="translate(-4.5 -1.5)" fill="#707070" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

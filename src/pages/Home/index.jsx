@@ -1,5 +1,11 @@
 import { Sidebar } from "../../components/Sidebar";
-import { Container, Wrapper } from "./styles";
+import { Container, Wrapper, ContainerHeader, ContainerGrid1Body } from "./styles";
+import iconFilter from '../../assets/icon-filter.svg';
+import iconWiOff from '../../assets/wifi-off.svg'
+import iconWifiOn from '../../assets/icon-wifi-on.svg'
+import iconInfo from '../../assets/info-icon.svg'
+import iconPontos from '../../assets/pontos-icon.svg'
+import iconPlus from '../../assets/icon-plus.svg'
 
 
 export function Home() {
@@ -10,6 +16,332 @@ export function Home() {
         <Wrapper>
 
           <div className="grid1">
+            <ContainerHeader>
+              <div>
+                <h3>Pontos de vendas</h3>
+                <p>Status/Localização</p>
+              </div>
+
+              <dir className="grid-1-menu">
+                <button>
+                  <img src={iconPlus} alt="" />
+                  Ponto de Venda
+                </button>
+                <img src={iconFilter} alt="" />
+              </dir>
+            </ContainerHeader>
+
+            <ContainerGrid1Body>
+
+              <div className="grd-1-item">
+
+                <div className="item">
+                  <img src={iconWifiOn} alt="" />
+                  <p>Edifício Primeiro</p>
+                </div>
+
+                <div className="item-icons">
+                  <img
+                    src={iconInfo}
+                    alt=""
+                    className="icon-info"
+                  />
+                  <img
+                    src={iconPontos}
+                    alt=""
+                    className="icon-pontos"
+                  />
+                </div>
+
+              </div>
+
+              <div className="grd-1-item">
+
+                <div className="item">
+                  <img src={iconWifiOn} alt="" />
+                  <p>Edifício Garcia D'ávila, Térreo</p>
+                </div>
+
+                <div className="item-icons">
+                  <img
+                    src={iconInfo}
+                    alt=""
+                    className="icon-info"
+                  />
+                  <img
+                    src={iconPontos}
+                    alt=""
+                    className="icon-pontos"
+                  />
+                </div>
+
+              </div>
+
+              <div className="grd-1-item">
+
+                <div className="item">
+                  <img src={iconWifiOn} alt="" />
+                  <p>Edifício Garcia D'ávila, Térreo</p>
+                </div>
+
+                <div className="item-icons">
+                  <img
+                    src={iconInfo}
+                    alt=""
+                    className="icon-info"
+                  />
+                  <img
+                    src={iconPontos}
+                    alt=""
+                    className="icon-pontos"
+                  />
+                </div>
+
+              </div>
+
+              <div className="grd-1-item">
+
+                <div className="item">
+                  <img src={iconWifiOn} alt="" />
+                  <p>Edifício Garcia D'ávila, Térreo</p>
+                </div>
+
+                <div className="item-icons">
+                  <img
+                    src={iconInfo}
+                    alt=""
+                    className="icon-info"
+                  />
+                  <img
+                    src={iconPontos}
+                    alt=""
+                    className="icon-pontos"
+                  />
+                </div>
+
+              </div>
+
+              <div className="grd-1-item">
+
+                <div className="item">
+                  <img src={iconWifiOn} alt="" />
+                  <p>Edifício Garcia D'ávila, Térreo</p>
+                </div>
+
+                <div className="item-icons">
+                  <img
+                    src={iconInfo}
+                    alt=""
+                    className="icon-info"
+                  />
+                  <img
+                    src={iconPontos}
+                    alt=""
+                    className="icon-pontos"
+                  />
+                </div>
+
+              </div>
+
+              <div className="grd-1-item">
+
+                <div className="item">
+                  <img src={iconWiOff} alt="" />
+                  <p>Edifício Garcia D'ávila, Térreo</p>
+                </div>
+
+                <div className="item-icons">
+                  <img
+                    src={iconInfo}
+                    alt=""
+                    className="icon-info"
+                  />
+                  <img
+                    src={iconPontos}
+                    alt=""
+                    className="icon-pontos"
+                  />
+                </div>
+
+              </div>
+
+              <div className="grd-1-item">
+
+                <div className="item">
+                  <img src={iconWifiOn} alt="" />
+                  <p>Edifício Garcia D'ávila, Térreo</p>
+                </div>
+
+                <div className="item-icons">
+                  <img
+                    src={iconInfo}
+                    alt=""
+                    className="icon-info"
+                  />
+                  <img
+                    src={iconPontos}
+                    alt=""
+                    className="icon-pontos"
+                  />
+                </div>
+
+              </div>
+
+              <div className="grd-1-item">
+
+                <div className="item">
+                  <img src={iconWifiOn} alt="" />
+                  <p>Edifício Garcia D'ávila, Térreo</p>
+                </div>
+
+                <div className="item-icons">
+                  <img
+                    src={iconInfo}
+                    alt=""
+                    className="icon-info"
+                  />
+                  <img
+                    src={iconPontos}
+                    alt=""
+                    className="icon-pontos"
+                  />
+                </div>
+
+              </div>
+
+              <div className="grd-1-item">
+
+                <div className="item">
+                  <img src={iconWiOff} alt="" />
+                  <p>Edifício Garcia D'ávila, Térreo</p>
+                </div>
+
+                <div className="item-icons">
+                  <img
+                    src={iconInfo}
+                    alt=""
+                    className="icon-info"
+                  />
+                  <img
+                    src={iconPontos}
+                    alt=""
+                    className="icon-pontos"
+                  />
+                </div>
+
+              </div>
+
+              <div className="grd-1-item">
+
+                <div className="item">
+                  <img src={iconWifiOn} alt="" />
+                  <p>Edifício Garcia D'ávila, Térreo</p>
+                </div>
+
+                <div className="item-icons">
+                  <img
+                    src={iconInfo}
+                    alt=""
+                    className="icon-info"
+                  />
+                  <img
+                    src={iconPontos}
+                    alt=""
+                    className="icon-pontos"
+                  />
+                </div>
+
+              </div>
+
+              <div className="grd-1-item">
+
+                <div className="item">
+                  <img src={iconWifiOn} alt="" />
+                  <p>Edifício Garcia D'ávila, Térreo</p>
+                </div>
+
+                <div className="item-icons">
+                  <img
+                    src={iconInfo}
+                    alt=""
+                    className="icon-info"
+                  />
+                  <img
+                    src={iconPontos}
+                    alt=""
+                    className="icon-pontos"
+                  />
+                </div>
+
+              </div>
+
+              <div className="grd-1-item">
+
+                <div className="item">
+                  <img src={iconWiOff} alt="" />
+                  <p>Edifício Garcia D'ávila, Térreo</p>
+                </div>
+
+                <div className="item-icons">
+                  <img
+                    src={iconInfo}
+                    alt=""
+                    className="icon-info"
+                  />
+                  <img
+                    src={iconPontos}
+                    alt=""
+                    className="icon-pontos"
+                  />
+                </div>
+
+              </div>
+
+              <div className="grd-1-item">
+
+                <div className="item">
+                  <img src={iconWifiOn} alt="" />
+                  <p>Edifício Garcia D'ávila, Térreo</p>
+                </div>
+
+                <div className="item-icons">
+                  <img
+                    src={iconInfo}
+                    alt=""
+                    className="icon-info"
+                  />
+                  <img
+                    src={iconPontos}
+                    alt=""
+                    className="icon-pontos"
+                  />
+                </div>
+
+              </div>
+
+              <div className="grd-1-item">
+
+                <div className="item">
+                  <img src={iconWifiOn} alt="" />
+                  <p>Edifício Último</p>
+                </div>
+
+                <div className="item-icons">
+                  <img
+                    src={iconInfo}
+                    alt=""
+                    className="icon-info"
+                  />
+                  <img
+                    src={iconPontos}
+                    alt=""
+                    className="icon-pontos"
+                  />
+                </div>
+
+              </div>
+
+            </ContainerGrid1Body>
           </div>
 
           <div className="cgT">

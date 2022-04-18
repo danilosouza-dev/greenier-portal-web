@@ -1,0 +1,11 @@
+<svg id="Componente_51_5" data-name="Componente 51 – 5" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Retângulo_17443" data-name="Retângulo 17443" fill="#aaa" stroke="#707070" stroke-width="1" opacity="0">
+    <rect width="40" height="40" rx="5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="39" height="39" rx="4.5" fill="none"/>
+  </g>
+  <g id="info-circle" transform="translate(4 3.975)">
+    <path id="Caminho_34647" data-name="Caminho 34647" d="M16.012,30.023A14.011,14.011,0,1,0,2,16.012,14.011,14.011,0,0,0,16.012,30.023Zm0,2A16.012,16.012,0,1,0,0,16.012,16.012,16.012,0,0,0,16.012,32.025Z" fill="#707070" fill-rule="evenodd"/>
+    <path id="Caminho_34648" data-name="Caminho 34648" d="M19.489,14.823l-4.583.575-.164.761.9.166c.588.141.7.352.576.938L14.743,24.2c-.388,1.8.21,2.64,1.617,2.64a4.145,4.145,0,0,0,2.932-1.2l.176-.833a2.217,2.217,0,0,1-1.373.492c-.551,0-.751-.386-.608-1.067Z" transform="translate(-1.615 -1.637)" fill="#707070"/>
+    <path id="Caminho_34649" data-name="Caminho 34649" d="M19.753,9.877a2,2,0,1,1-2-2A2,2,0,0,1,19.753,9.877Z" transform="translate(-1.739 -0.87)" fill="#707070"/>
+  </g>
+</svg>
